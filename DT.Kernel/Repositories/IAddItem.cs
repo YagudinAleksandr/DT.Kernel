@@ -1,7 +1,4 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-
-namespace DT.Kernel
+﻿namespace DT.Kernel
 {
     /// <summary>
     /// Репозиторий добавления сущности
@@ -14,13 +11,6 @@ namespace DT.Kernel
         /// Добавление сущности
         /// </summary>
         /// <param name="item">Сущность</param>
-        void Add(TAggreagate item);
-
-        /// <summary>
-        /// Добавление сущности
-        /// </summary>
-        /// <param name="item">Сущность</param>
-        /// <param name="cancellationToken">Токен отмены</param>
-        Task AddAsync(TAggreagate item, CancellationToken cancellationToken = default);
+        void Add(TAggreagate item);    
     }
 }

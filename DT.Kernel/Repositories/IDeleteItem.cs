@@ -1,7 +1,4 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-
-namespace DT.Kernel
+﻿namespace DT.Kernel
 {
     /// <summary>
     /// Репозиторий удаления сущности
@@ -15,12 +12,5 @@ namespace DT.Kernel
         /// </summary>
         /// <param name="aggreagate">Агрегат</param>
         void Delete(TAggreagate aggreagate);
-
-        /// <summary>
-        /// Удаление сущности
-        /// </summary>
-        /// <param name="aggreagate">Агрегат</param>
-        /// <param name="cancellationToken">Токен отмены</param>
-        Task DeleteAsync(TAggreagate aggreagate, CancellationToken cancellationToken = default);
     }
 }

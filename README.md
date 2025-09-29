@@ -40,9 +40,13 @@
 ### Репозитории (интерфейсы)
 
 - **IAddItem<TAggregate>** - добавление сущностей
+- **IAddItemAsync<TAggregate>** - добавление сущностей асинхронно
 - **IGetItem<TAggregate, TKey>** - получение сущностей
-- **IUpdateItem<TAggregate>** - обновление сущностей
+- **IGetItemAsync<TAggregate, TKey> - получение сущностей асинхронно
+- **IUpdateItem<TAggregate>** - обновление 
+- **IUpdateItemAsync<TAggregate>** - обновление сущностей асинхронно
 - **IDeleteItem<TAggregate>** - удаление сущностей
+- **IDeleteItemAsync<TAggregate>** - удаление сущностей асинхронно
 - **IUnitOfWork** - Unit of Work паттерн
 
 ## Использование
