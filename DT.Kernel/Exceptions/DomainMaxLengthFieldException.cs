@@ -15,6 +15,9 @@
         /// </summary>
         public double Length { get; }
 
+        /// <inheritdoc/>
+        public override ErrorTypeEnum Type => ErrorTypeEnum.Validation;
+
         /// <summary>
         /// Исключение максимальной длины поля
         /// </summary>

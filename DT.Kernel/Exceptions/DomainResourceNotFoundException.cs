@@ -20,6 +20,9 @@
         /// </summary>
         public object? ParamValue { get; }
 
+        /// <inheritdoc/>
+        public override ErrorTypeEnum Type => ErrorTypeEnum.NotFound;
+
         /// <summary>
         /// Ресурс не найден
         /// </summary>

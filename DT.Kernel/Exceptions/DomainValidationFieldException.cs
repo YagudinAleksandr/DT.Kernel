@@ -15,6 +15,9 @@
         /// </summary>
         public string? MustHave { get; }
 
+        /// <inheritdoc/>
+        public override ErrorTypeEnum Type => ErrorTypeEnum.Validation;
+
         /// <summary>
         /// Невалидное поле
         /// </summary>

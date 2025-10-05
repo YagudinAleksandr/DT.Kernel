@@ -20,6 +20,9 @@
         /// </summary>
         public string? EntityParamValue { get; }
 
+        /// <inheritdoc/>
+        public override ErrorTypeEnum Type => ErrorTypeEnum.Conflict;
+
         /// <summary>
         /// Исключение о существующем ресурсе
         /// </summary>

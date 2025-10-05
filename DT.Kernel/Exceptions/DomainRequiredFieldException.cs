@@ -10,6 +10,9 @@
         /// </summary>
         public string FieldName { get; }
 
+        /// <inheritdoc/>
+        public override ErrorTypeEnum Type => ErrorTypeEnum.Validation;
+
         /// <summary>
         /// Исключение поля обязательного для заполнения
         /// </summary>

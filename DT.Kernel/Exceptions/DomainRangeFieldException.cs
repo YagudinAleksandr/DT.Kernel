@@ -20,6 +20,9 @@
         /// </summary>
         public double MaxValue { get; }
 
+        /// <inheritdoc/>
+        public override ErrorTypeEnum Type => ErrorTypeEnum.Validation;
+
         /// <summary>
         /// Исключение значения не попадающего в диапозон
         /// </summary>

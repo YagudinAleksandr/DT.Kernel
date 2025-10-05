@@ -18,6 +18,11 @@ namespace DT.Kernel
         public object[] Parameters { get; }
 
         /// <summary>
+        /// Тип ошибки <see cref="ErrorTypeEnum"/>
+        /// </summary>
+        public virtual ErrorTypeEnum Type { get; } = ErrorTypeEnum.Failure;
+
+        /// <summary>
         /// Создать исключение с кодом ошибки и параметрами.
         /// </summary>
         public DomainException(string errorCode, params object[] parameters)
