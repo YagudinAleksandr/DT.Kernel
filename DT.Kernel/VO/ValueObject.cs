@@ -28,6 +28,8 @@ namespace DT.Kernel
         /// <exception cref="DomainMaxLengthFieldException"></exception>
         protected static string SetCharField(string fieldNameCode, string value, int minLength, int maxLength)
         {
+            value = value.Trim();
+
             if (string.IsNullOrEmpty(value))
                 throw new DomainRequiredFieldException(fieldNameCode);
 
