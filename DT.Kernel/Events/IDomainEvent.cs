@@ -15,6 +15,6 @@ namespace DT.Kernel
         /// <summary>
         /// Дата создания события
         /// </summary>
-        DateTime OccuredOn { get; }
+        DateTimeOffset OccuredOn { get; }
     }
 }

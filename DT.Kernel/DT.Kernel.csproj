@@ -11,6 +11,7 @@
 		<Authors>Aleksandr Yagudin</Authors>
 		<Description>Kernel for Domain assembly in DDD arch.</Description>
 
+		<PackageId>DT.Kernel</PackageId>
 		<PackageProjectUrl>https://github.com/YagudinAleksandr/DT.Kernel</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/YagudinAleksandr/DT.Kernel</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
